@@ -1,0 +1,39 @@
+body
+{
+	text-align: center;
+	font-family: Arial, Timenewroman, sans serif;
+	background-color: grey;
+  color: black;
+  padding-top: 0px;
+}
+/*arriere plan*/
+[class*="col-"], footer {
+  background-color: ;
+  background: url("") center center fixed no-repeat; /*fons = fons.jpg et ne se repete pas*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+	border: 0px solid white;
+  border-radius: 0px;
+  line-height: 40px;
+  text-align: center;
+}
+
+a /* Liens par défaut (non survolés) */
+{ text-decoration: none;
+   color: black;
+   font-style: italic;}
+
+a:hover /* Apparence au survol des liens */
+{color: black;}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{color: black;} /* Appliquer une couleur noir */
+
+a:active
+{color: black;} /*lorsque l'on clique sur les liens, ils sont noir*/
+.by
+{
+  font-size: x-small;
+}
